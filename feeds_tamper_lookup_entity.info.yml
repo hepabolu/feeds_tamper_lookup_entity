@@ -1,0 +1,9 @@
+name: 'Tamper Lookup Entity'
+type: module
+description: 'Feeds Tamper plugin to resolve entity references by a field value.'
+core_version_requirement: ^9 || ^10 || ^11
+package: Tamper
+version: '1.0.0'
+dependencies:
+  - drupal:system (>=8.5.0)
+  - tamper:tamper
